@@ -26,7 +26,7 @@ async def sum_coomand(update: Update, context: ContextTypes.DEFAULT_TYPE):
     res = f'{x} + {y} = {x+y}'
 
     if update.effective_user.first_name == 'Дмитрий':
-        res = 'Офигел? Сам считай!'
+        res = 'Офигел? Сам считай, умник!'
     await update.message.reply_text(res)
 
 async def no_mat_coomand(update: Update, context: ContextTypes.DEFAULT_TYPE):
